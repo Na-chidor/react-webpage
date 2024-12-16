@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+nav {
+  text-decoration: underline;
+}
+
+header .company-name {
+  font-size: 24px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+  position: fixed;
+  bottom:0;
+  width:100%;
+}
+
+footer div h4 {
+  margin-bottom: 10px;
+}
+
+.page {
+  margin:100px 0;
+  font-size: 32px;
+}
+#line{
+  margin: 20px 0;
+  text-decoration: underline;
+}
+hover{
+
+}
+#line-1 {
+  margin: 20px 0;
+  text-decoration: underline;
+  color: blue;
+}
