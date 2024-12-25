@@ -1,7 +1,12 @@
 import React from 'react';
 
-function Features() {
-  return <div className="page">Features</div>;
-}
+const Features = () => {
+  return (
+    <div className="container my-5">
+      <h1>Features</h1>
+    </div>
+  );
+};
 
 export default Features;
+

@@ -1,26 +1,36 @@
 import React from 'react';
 
-function Footer() {
+const Footer = () => {
   return (
-    <footer>
-      <div>
-        <h4>Features</h4>
-        <p id= "line-1">Cool stuff</p>
-        <p id= "line">Random feature</p>
-        <p id= "line">Team feature</p>
-      </div>
-      <div>
-        <h4>Resources</h4>
-        <p id= "line">Resource</p>
-        <p id= "line">Resource name</p>
-      </div>
-      <div>
-        <h4 >About</h4>
-        <p id= "line">Team</p>
-        <p id= "line">Locations</p>
+    <footer className="bg-light text-center py-3 mt-auto">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <h6>Features</h6>
+            <ul className="list-unstyled">
+              <li><a href="#" className="text-decoration-none">Cool stuff</a></li>
+              <li><a href="#" className="text-decoration-none">Random feature</a></li>
+              <li><a href="#" className="text-decoration-none">Team feature</a></li>
+            </ul>
+          </div>
+          <div className="col">
+            <h6>Resources</h6>
+            <ul className="list-unstyled">
+              <li><a href="#" className="text-decoration-none">Resource</a></li>
+              <li><a href="#" className="text-decoration-none">Resource name</a></li>
+            </ul>
+          </div>
+          <div className="col">
+            <h6>About</h6>
+            <ul className="list-unstyled">
+              <li><a href="#" className="text-decoration-none">Team</a></li>
+              <li><a href="#" className="text-decoration-none">Locations</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
